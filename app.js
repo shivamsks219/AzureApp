@@ -1,4 +1,5 @@
 const express = require('express');
+const port = process.env.PORT || 3000
 var app = express();
 var upload = require('express-fileupload');
 var docxConverter = require('docx-pdf');
@@ -83,6 +84,6 @@ app.get('/download', (req,res) =>{
   })
   //Starting the server at port 3000
   
-  app.listen(8080,() => {
+  app.listen(port, () => {
       console.log("Server Started at port 3000...");
   })
