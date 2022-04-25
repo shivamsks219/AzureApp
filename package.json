@@ -4,7 +4,7 @@
   "description": "Webapp to convert docx to pdf",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --ui tdd tests/callbacks.js",
+    "test": "mocha",
   },
   "author": "shivam",
   "license": "ISC",
