@@ -1,0 +1,17 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "Webapp to convert docx to pdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shivam",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "docx-pdf": "^0.0.1",
+    "express": "^4.17.3",
+    "express-fileupload": "^1.3.1"
+  }
+}
