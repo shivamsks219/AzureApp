@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Webapp to convert docx to pdf",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha",
-  },
+  
   "author": "shivam",
   "license": "ISC",
   "description": "",
