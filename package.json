@@ -2,7 +2,7 @@
   "name": "converter",
   "version": "1.0.0",
   "description": "Webapp to convert docx to pdf",
-  "main": "index.js",
+  "main": "app.js",
   
   "author": "shivam",
   "license": "ISC",
